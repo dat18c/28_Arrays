@@ -34,6 +34,7 @@ for (int i=0; i<ANTAL; i++)
 {
    //gør noget med i
 }
+`````
 
 ## Øvelser
 Videre med de givne øvelser på arrays.
