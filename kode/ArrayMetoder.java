@@ -28,6 +28,7 @@ public class ArrayMetoder
    {
       System.out.println(Arrays.toString(list) + " mitTal: " + mitTal);
       System.out.println("Adresse for list: " + list);
+      //lav om på array list og integer mitTal
       list[0] = 42;
       mitTal = 42;
       System.out.println(Arrays.toString(list) + " mitTal: " + mitTal);
