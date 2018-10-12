@@ -18,7 +18,8 @@ public class ArrayMetoder
       skrivArray(tal, tallet);
       
       //udskriv array tal og tallet efter kald af metode
-      //tallet er det samme som før, arrayet er ændret
+      //tallet er det samme som før (call by value)
+      //array tal er ændret (call by reference)
       System.out.println(Arrays.toString(tal) + " tallet: " + tallet);
    
    }
