@@ -8,9 +8,27 @@ public class ArrayMetoder
       tal[0] = 3;
       tal[1] = 8;
       tal[2] = 2;
+      int tallet = 5;
       
-      System.out.println(Arrays.toString(tal));
+      //udskriv array tal og tallet før kald af metode
+      System.out.println(Arrays.toString(tal) + " tallet: " + tallet);
+      System.out.println("Adresse for tal: " + tal);
+      
+      //kald metode, der laver om på array tal og tallet
+      skrivArray(tal, tallet);
+      
+      //udskriv array tal og tallet efter kald af metode
+      //tallet er det samme som før, arrayet er ændret
+      System.out.println(Arrays.toString(tal) + " tallet: " + tallet);
    
    }
 
+   public static void skrivArray(int[] list, int mitTal)
+   {
+      System.out.println(Arrays.toString(list) + " mitTal: " + mitTal);
+      System.out.println("Adresse for list: " + list);
+      list[0] = 42;
+      mitTal = 42;
+      System.out.println(Arrays.toString(list) + " mitTal: " + mitTal);
+   }
 }
