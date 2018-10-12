@@ -4,11 +4,13 @@ public class ArrayMetoder
 {
    public static void main(String[] args)
    {
+      
       int[] tal = new int[3];
       tal[0] = 3;
       tal[1] = 8;
       tal[2] = 2;
       int tallet = 5;
+      
       
       //udskriv array tal og tallet før kald af metode
       System.out.println(Arrays.toString(tal) + " tallet: " + tallet);
@@ -33,4 +35,12 @@ public class ArrayMetoder
       mitTal = 42;
       System.out.println(Arrays.toString(list) + " mitTal: " + mitTal);
    }
+   
+   public static void swap(int[] list, int index1, int index2)
+   {
+      //byt om på index1 og index2 i array list
+      //list[index1] og list[index2] er de to tal, der skal byttes om
+      
+   }
+   
 }

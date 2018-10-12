@@ -28,7 +28,7 @@ tal[2] = 13;
 Konstanter er variable, der ikke kan ændres. De erklæres med brug af *final* og skrives altid med store bogstaver.
 `````
 //vi bruger altid 3 som antal
-final int ANTAL = 12;
+final int ANTAL = 3;
 
 for (int i=0; i<ANTAL; i++)
 {
