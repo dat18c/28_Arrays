@@ -38,3 +38,11 @@ for (int i=0; i<ANTAL; i++)
 
 ## Øvelser
 Videre med de givne øvelser på arrays.
+
+Status på 1 - 100.
+
+Lav en metode, der bytter om på to elementer i et array.
+
+Vend et array om, så elementerne optræder i omvendt rækkefølge: Første element skal være til sidst, element nr. 2 skal være næstsidst osv. Brug ombyttemetoden og en forløkke.
+
+Sorter et array. Kræver to løkker inden i hinanden.
